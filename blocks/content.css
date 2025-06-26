@@ -43,6 +43,11 @@
   }
   .content__title {
     font-size: 45px;
+    max-width: 710px;
+  }
+
+  .content__quote {
+    max-width: 740px;
   }
 
   .content__quote-author {
@@ -64,9 +69,7 @@
   .content__quote {
     margin-top: 14%;
   }
-  .content__quote_br {
-    display: none;
-  }
+
   .content__quote-author {
     margin-top: 4%;
   }
