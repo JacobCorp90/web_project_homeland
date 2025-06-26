@@ -22,5 +22,5 @@ La funcionalidad incluye:
 
 ## 4. Enlace a GitHub Pages
 
-[Ver página publicada en GitHub Pages](https://<tu-nombre-de-usuario>.github.io/<nombre-del-repositorio>/)
+[Ver página publicada en GitHub Pages]((https://jacobcorp90.github.io/web_project_homeland/))
 
