@@ -10,4 +10,11 @@
   font-size: 14px;
   line-height: 1.2;
   margin: 0;
-    }
+}
+
+@media screen and (max-width: 544px) {
+  .footer {
+    margin-top: 21%;
+    margin-bottom: 7%;
+  }
+}

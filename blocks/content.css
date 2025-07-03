@@ -70,7 +70,7 @@
   margin-bottom: 8.5%;
 }
 
-.places-container__image-buttom {
+.places-container__image-button {
   grid-column: 1;
   grid-row: 2;
   margin: 0;
@@ -92,15 +92,13 @@
   justify-content: center;
   align-items: center;
   max-width: 289px;
-  max-height: 48px;
   grid-column: 1;
   grid-row: 3;
   text-decoration: none;
   color: inherit;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 48px;
   margin-top: 10%;
-  padding: 13px 20px 13px 20px;
   background: linear-gradient(to right, #0278fe, #003a7b);
   border-radius: 4px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
@@ -167,6 +165,39 @@
   .main__text {
     width: 100%;
   }
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1024px;
+    margin-top: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .places-container {
+    grid-template-columns: 47% 52%;
+    margin-top: 11%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .places-container__title {
+    font-size: 42px;
+  }
+
+  .places-container__artist-container {
+    align-self: start;
+  }
+
+  .places-container__description {
+    font-size: 16px;
+    margin-right: 4.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .places-container__button {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 544px) {
@@ -188,5 +219,61 @@
   .main__text {
     margin-top: 11%;
     margin-bottom: 10%;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    max-width: 544px;
+    margin-top: 11%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .places-container {
+    grid-template-columns: 1fr;
+    margin-top: 19%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .places-container__title {
+    grid-row: 1;
+    font-size: 32px;
+    margin-left: 4.5%;
+    margin-bottom: 8.5%;
+  }
+
+  .places-container__artist-container {
+    grid-column: 1;
+    grid-row: 2;
+    height: fit-content;
+    align-self: start;
+    margin-left: 4.5%;
+  }
+
+  .places-container__image-button {
+    display: contents;
+  }
+
+  .places-container__image {
+    grid-row: 3;
+    box-shadow: none;
+  }
+
+  .places-container__button {
+    grid-row: 5;
+    max-width: 100%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    font-size: 14px;
+  }
+
+  .places-container__description-container {
+    grid-column: 1;
+    grid-row: 4;
+    margin-top: 9%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
   }
 }
