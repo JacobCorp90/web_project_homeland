@@ -45,13 +45,13 @@
   font-size: 18px;
   line-height: 48px;
   margin-top: 10%;
-  background: linear-gradient(90deg, #0278fe, #003a7b);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   border-radius: 4px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .places-container__button:hover {
-  background: rgba(2, 120, 254, 0.25);
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 .places-container__artist-container {
